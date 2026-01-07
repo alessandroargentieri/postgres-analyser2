@@ -6,7 +6,7 @@ A simple Docker-based tool for testing PostgreSQL database performance using pgb
 
 ### 1. Build the Docker Image
 ```bash
-# For local use
+# For local use only
 docker build -t postgres-benchmark .
 
 # For multi-platform compatibility (recommended)
